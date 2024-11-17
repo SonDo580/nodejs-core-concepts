@@ -23,3 +23,8 @@ myEmitter.once("bar", () => {
 myEmitter.emit("bar");
 myEmitter.emit("bar");
 myEmitter.emit("bar");
+
+// => Output: 
+// foo occurred 1
+// foo occurred a
+// bar occurred
