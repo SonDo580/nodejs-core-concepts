@@ -1,4 +1,0 @@
-- A Buffer in NodeJS is a fixed-length sequence of bytes.
-- Each element of the buffer represent a single byte, which can store values from 0 to 255 (unsigned) or -128 to 127 (signed).
-- When assign a negative value, it is internally converted to the unsigned equivalent (two's complement)
-- When you assign a value outside the valid range, the buffer performs modulo 256 truncation to fit the value into a single byte.
